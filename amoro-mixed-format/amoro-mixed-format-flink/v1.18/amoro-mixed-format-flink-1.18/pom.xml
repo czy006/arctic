@@ -27,17 +27,16 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>amoro-mixed-format-flink-1.17</artifactId>
-    <name>Amoro Project Mixed Format Flink 1.17</name>
+    <artifactId>amoro-mixed-format-flink-1.18</artifactId>
+    <name>Amoro Project Mixed Format Flink 1.18</name>
     <url>https://amoro.apache.org</url>
 
     <packaging>jar</packaging>
 
     <properties>
-        <kafka.version>3.2.3</kafka.version>
         <assertj.version>3.21.0</assertj.version>
-        <testcontainers.version>1.17.2</testcontainers.version>
-        <flink.version>1.17.2</flink.version>
+        <testcontainers.version>1.18.3</testcontainers.version>
+        <flink.version>1.18.1</flink.version>
     </properties>
 
     <dependencies>
@@ -49,7 +48,7 @@
 
         <dependency>
             <groupId>org.apache.iceberg</groupId>
-            <artifactId>iceberg-flink-1.17</artifactId>
+            <artifactId>iceberg-flink-1.18</artifactId>
             <version>${iceberg.version}</version>
             <exclusions>
                 <exclusion>
@@ -69,7 +68,7 @@
 
         <dependency>
             <groupId>org.apache.paimon</groupId>
-            <artifactId>paimon-flink-1.17</artifactId>
+            <artifactId>paimon-flink-1.18</artifactId>
             <version>${paimon.version}</version>
         </dependency>
     </dependencies>
