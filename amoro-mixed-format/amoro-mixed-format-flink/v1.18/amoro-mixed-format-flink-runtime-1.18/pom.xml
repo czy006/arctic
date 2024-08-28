@@ -73,7 +73,7 @@
                                 <includes combine.children="append">
                                     <include>org.apache.amoro:*</include>
                                     <include>org.apache.iceberg:*</include>
-                                    <include>com.fasterxml.jackson.core:*</include>
+                                    <include>org.apache.flink.shaded.jackson2.com.fasterxml.jackson.core:*</include>
                                     <include>org.apache.parquet:*</include>
                                     <include>org.apache.commons:*</include>
                                     <include>commons-lang:*</include>
